@@ -463,7 +463,7 @@ export default function App() {
         </header>
 
         {/* CENTRAL DISPLAY WINDOW AND VIEWS CONTAINER */}
-        <main className="flex-1 overflow-y-auto p-4 md:p-8 space-y-6">
+        <main className="flex-1 overflow-hidden p-4 md:p-8 space-y-6">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 border-b border-slate-500/5 pb-4 print:hidden">
             <div>
               <h1 className={`text-xl md:text-2xl font-extrabold tracking-tight ${currentThemeStyles.textPrimary}`}>
